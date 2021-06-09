@@ -1,4 +1,20 @@
 # openstack
+```
+kolla_base_distro: "ubuntu"
+kolla_install_type: "source"
+
+network_interface: enp0s8
+neutron_external_interface: enp0s3
+kolla_internal_vip_address: 192.168.0.116
+
+nova_compute_virt_type: "qemu"
+
+enable_haproxy: "no"
+
+enable_cinder: "yes"
+enable_cinder_backup: "no"
+enable_cinder_backend_lvm: "yes"
+```
  WEEK 3: OpenStack
 
 ## Practice: Deploy Openstack AIO inside VM with Kolla
