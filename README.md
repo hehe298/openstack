@@ -1,4 +1,15 @@
 # openstack
+ Bootstrap servers with kolla deploy dependencies:
+
+```
+kolla-ansible -i all-in-one bootstrap-servers
+```
+
+![image](https://user-images.githubusercontent.com/83031380/120115204-ce9f1580-c1ac-11eb-82cd-f5f8971dbaf0.png)
+
+![image](https://user-images.githubusercontent.com/83031380/120115210-d3fc6000-c1ac-11eb-9539-8829ede30fb2.png)
+
+2. Do pre-deployment checks for hosts:
 
 ```
 sudo bash
