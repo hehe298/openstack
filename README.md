@@ -1,4 +1,11 @@
 # openstack
+
+```
+sudo bash
+pvcreate /dev/sdb
+vgcreate cinder-volumes /dev/sdb
+```
+
 ```
 kolla_base_distro: "ubuntu"
 kolla_install_type: "source"
